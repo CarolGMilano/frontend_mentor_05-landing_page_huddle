@@ -1,0 +1,11 @@
+@media screen and (min-width: 1000px) {
+    .rodape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .flex {
+        width: 903px;
+    }
+}

@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 2.3rem;
-    position: relative;
 }
 
 .corpo__card,

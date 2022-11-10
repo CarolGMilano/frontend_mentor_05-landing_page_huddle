@@ -1,0 +1,10 @@
+@media screen and (min-width: 1000px) {
+    .corpo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .corpo__card {
+        width: 903px;
+    }
+}

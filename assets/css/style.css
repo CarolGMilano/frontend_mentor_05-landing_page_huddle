@@ -19,6 +19,10 @@
 @import url('desktop/footer-nav.css');
 @import url('desktop/footer-social.css');
 
+@import url('max-screen/header.css');
+@import url('max-screen/main.css');
+@import url('max-screen/footer.css');
+
 :root {
     --rosa: hsl(322, 100%, 66%);
     --azul_bebe: hsl(193, 100%, 96%);

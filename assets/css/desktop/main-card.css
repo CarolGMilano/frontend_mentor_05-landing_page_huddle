@@ -20,14 +20,4 @@
     .card__container .container__texto {
         text-align: start;
     }
-
-    .corpo__float {
-        width: 500px;
-        left: 25%;
-    }
-
-    .float__btn:hover {
-        cursor: pointer;
-        opacity: .8;
-    }
 }

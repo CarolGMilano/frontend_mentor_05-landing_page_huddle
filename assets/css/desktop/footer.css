@@ -3,6 +3,16 @@
         padding: 9rem 3rem 2rem 3rem;
     }
 
+    .corpo__float {
+        width: 500px;
+        left: 20%;
+    }
+
+    .float__btn:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
     .rodape__container {
         flex-direction: row;
         justify-content: space-between;

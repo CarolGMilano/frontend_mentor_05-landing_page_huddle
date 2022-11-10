@@ -1,0 +1,11 @@
+@media screen and (min-width: 1000px) {
+    .cabecalho {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__principal,
+    .cabecalho__destaque {
+        width: 919px;
+    }
+}

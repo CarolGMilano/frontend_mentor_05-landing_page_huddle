@@ -54,17 +54,3 @@
     font-weight: 400;
     color: var(--cinza);
 }
-
-.corpo__float {
-    padding: 2.5rem 1.5rem;
-    row-gap: 1.5rem;
-    position: absolute;
-    background-color: var(--branco);
-    bottom: -85px;
-}
-
-.float__btn {
-    width: 220px;
-    font-size: 13px;
-    transition: .3s;
-}
