@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+    .principal__logo {
+        width: 144px;
+        height: 24px;
+    }
+
+    .principal__btn:hover {
+        color: var(--cinza);
+        cursor: pointer;
+    }
+}

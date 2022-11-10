@@ -1,0 +1,23 @@
+.cabecalho__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__logo {
+    width: 120px;
+    height: 20px;
+}
+
+.principal__btn {
+    padding: .3rem 1.5rem;
+    background-color: var(--branco);
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 8px;
+    font-family: var(--fonte_principal);
+    color: var(--preto);
+    font-size: 13px;
+    font-weight: 600;
+    transition: .3s;
+}

@@ -1,0 +1,33 @@
+@media screen and (min-width: 800px) {
+    .corpo__card {
+        padding: 3rem;
+        column-gap: 4rem;
+    }
+
+    .corpo__card:nth-child(1),
+    .corpo__card:nth-child(3) {
+        flex-direction: row-reverse;
+    }
+
+    .corpo__card:nth-child(2) {
+        flex-direction: row;
+    }
+
+    .card__container {
+        align-items: flex-start;
+    }
+
+    .card__container .container__texto {
+        text-align: start;
+    }
+
+    .corpo__float {
+        width: 500px;
+        left: 25%;
+    }
+
+    .float__btn:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+}

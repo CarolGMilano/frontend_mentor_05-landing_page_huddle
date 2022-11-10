@@ -1,0 +1,31 @@
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/header-principal.css');
+@import url('mobile/header-destaque.css');
+@import url('mobile/main.css');
+@import url('mobile/main-card.css');
+@import url('mobile/footer.css');
+@import url('mobile/footer-dados.css');
+@import url('mobile/footer-nav.css');
+@import url('mobile/footer-social.css');
+
+@import url('desktop/header.css');
+@import url('desktop/header-principal.css');
+@import url('desktop/header-destaque.css');
+@import url('desktop/main.css');
+@import url('desktop/main-card.css');
+@import url('desktop/footer.css');
+@import url('desktop/footer-dados.css');
+@import url('desktop/footer-nav.css');
+@import url('desktop/footer-social.css');
+
+:root {
+    --rosa: hsl(322, 100%, 66%);
+    --azul_bebe: hsl(193, 100%, 96%);
+    --branco: hsl(0, 0%, 100%);
+    --preto: hsl(192, 100%, 9%);
+    --cinza: hsl(208, 11%, 55%);
+
+    --fonte_titulos: 'Poppins', sans-serif;
+    --fonte_principal: 'Open Sans', sans-serif;
+}

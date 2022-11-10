@@ -1,0 +1,43 @@
+@media screen and (min-width: 800px) {
+    .cabecalho__destaque {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 2rem;
+    }
+
+    .destaque__container {
+        width: 50%;
+    }
+
+    .destaque__container .container__titulo {
+        width: 320px;
+    }
+
+    .destaque__container .container__texto {
+        font-size: 15px;
+        align-self: flex-start;
+        width: 100%;
+        max-width: 430px;
+    }
+
+    .destaque__container .container__titulo,
+    .destaque__container .container__texto {
+        text-align: start;
+    }
+
+    .destaque__container .container__btn {
+        align-self: flex-start;
+        width: 250px;
+        transition: .3s;
+    }
+
+    .destaque__container .container__btn:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
+    .destaque__img {
+        width: 50%;
+    }
+}

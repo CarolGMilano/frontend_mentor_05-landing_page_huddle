@@ -1,0 +1,14 @@
+@media screen and (min-width: 800px) {
+    .rodape {
+        padding: 9rem 3rem 2rem 3rem;
+    }
+
+    .rodape__container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .rodape__copyright {
+        align-self: flex-end;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 800px) {
+    .rodape__social {
+        width: 200px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .social__icone svg:hover {
+        fill: var(--rosa);
+        border-color: var(--rosa);
+    }
+}

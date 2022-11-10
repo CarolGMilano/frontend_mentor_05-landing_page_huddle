@@ -1,0 +1,42 @@
+.rodape__dados {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+}
+
+.dados__logo {
+    width: 150px;
+}
+
+.rodape__dados address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.dados__endereco,
+.dados__tel,
+.dados__email {
+    padding-left: 2rem;
+    color: var(--branco);
+    font-size: 14px;
+    font-style: normal;
+}
+
+.dados__endereco {
+    background: url('../../img/icon-location.svg') no-repeat;
+    background-position: left center;
+    background-size: 13px;
+}
+
+.dados__tel {
+    background: url('../../img/icon-phone.svg') no-repeat;
+    background-position: left center;
+    background-size: 13px;
+}
+
+.dados__email {
+    background: url('../../img/icon-email.svg') no-repeat;
+    background-position: left center;
+    background-size: 13px;
+}

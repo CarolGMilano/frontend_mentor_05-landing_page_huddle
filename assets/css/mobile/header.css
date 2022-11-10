@@ -1,0 +1,8 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    background: url('../../img/bg-hero-mobile.svg') no-repeat, var(--azul_bebe);
+    background-size: contain;
+    row-gap: 4.3rem;
+}

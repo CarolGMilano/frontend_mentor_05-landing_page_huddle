@@ -1,0 +1,16 @@
+.rodape__social {
+    display: flex;
+    column-gap: .6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__icone svg {
+    width: 28px;
+    height: 27px;
+    fill: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 100%;
+    padding: .3rem .3rem;
+    transition: .3s;
+}

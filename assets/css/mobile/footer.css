@@ -1,0 +1,21 @@
+.rodape {
+    background-color: var(--preto);
+    padding: 9rem .8rem 2rem .8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+.rodape__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+.rodape__copyright {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--branco);
+    align-self: center;
+    justify-self: center;
+}

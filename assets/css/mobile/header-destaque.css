@@ -1,0 +1,34 @@
+.cabecalho__destaque {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.destaque__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.destaque__container .container__titulo {
+    font-family: var(--fonte_titulos);
+    font-size: 27px;
+    text-align: center;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+.destaque__container .container__texto {
+    align-self: center;
+    width: 320px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--preto);
+    line-height: 1.5rem;
+}
+
+.destaque__img {
+    align-self: center;
+    width: 95%;
+}

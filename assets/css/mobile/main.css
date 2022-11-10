@@ -1,0 +1,17 @@
+.corpo {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.3rem;
+    position: relative;
+}
+
+.corpo__card,
+.corpo__float {
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}

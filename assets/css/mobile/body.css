@@ -1,0 +1,19 @@
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte_principal);
+}
+
+.container__btn,
+.float__btn {
+    align-self: center;
+    width: 300px;
+    padding: .8rem;
+    border: none;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.123) 0px 3px 8px;
+    background-color: var(--rosa);
+    font-size: 14px;
+    font-family: var(--fonte_principal);
+    color: var(--branco);
+    font-weight: 700;
+}

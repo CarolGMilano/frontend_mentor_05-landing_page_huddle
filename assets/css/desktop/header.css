@@ -1,0 +1,11 @@
+@media screen and (min-width: 800px) {
+    .cabecalho {
+        background: url('../../img/bg-hero-desktop.svg') no-repeat, var(--azul_bebe);
+        background-size: contain;
+        padding: 2.5rem;
+    }
+
+    .principal__btn {
+        padding: .6rem 3rem;
+    }
+}
